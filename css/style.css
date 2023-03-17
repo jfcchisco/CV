@@ -1,0 +1,50 @@
+h1 { 
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+    font-size: 48px; 
+    font-style: bold; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 45px; 
+} 
+
+h3 { 
+    font-size: 24px; 
+    font-style: italic; 
+    font-variant: normal; 
+    font-weight: 500; 
+    line-height: 20.4px; 
+} 
+
+blockquote { 
+    font-size: 21px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 30px; 
+} 
+
+pre { 
+    font-size: 13px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 18.5714px; 
+}
+			
+.b {
+	color: #103F71;
+}
+		
+.t {
+	font-size: 20px; 
+	font-weight: 400; 
+
+}
+
+.date {
+    text-align: right;
+}
+
+.br {
+    border-top: solid 1px black;
+}
