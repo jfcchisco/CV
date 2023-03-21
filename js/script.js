@@ -1,8 +1,8 @@
-// GLOBAL VARIABLES
+// GLOBAL letIABLES
 const urlParams = new URLSearchParams(window.location.search);
 const type = urlParams.get('type');
 
-var skills = [
+let skills = [
     ['Programming', 5],
     ['Circuit analysis', 5],
     ['Failure analysis and resolution', 5],
@@ -11,7 +11,7 @@ var skills = [
     ['3D design', 4],
 ];
 
-var software = [
+let software = [
     ['Perl, Python, TCL', 5],
     ['C++, C#, Visual Basic', 5],
     ['Unix and MS Office', 5],
@@ -21,7 +21,7 @@ var software = [
     ['AutoCad, Fusion 360, Blender', 4],
 ];
 
-var languages = [
+let languages = [
     ['Programming', 5],
     ['Circuit analysis', 5],
     ['Failure analysis and resolution', 5],
@@ -30,7 +30,7 @@ var languages = [
     ['3D design', 4],
 ];
 
-var jobs = [
+let jobs = [
     [
         'Test Engineer',
         'Robart GmbH - Linz, Austria',
@@ -90,7 +90,7 @@ window.onload = function () {
 
 function getSkills(skills, divName) {
 
-    var skillsDiv = document.getElementById(divName);
+    let skillsDiv = document.getElementById(divName);
 
     for (let skill of skills) {
         // Create row
@@ -162,7 +162,7 @@ function createType1() {
     //    </div>
     //</div>
 
-    var workDiv = document.getElementById('workHistory');
+    let workDiv = document.getElementById('workHistory');
 
     for (let job of jobs) {
         const row = document.createElement('div');
@@ -226,7 +226,7 @@ function createType2() {
     //     </div>
     // </div>
 
-    var workDiv = document.getElementById('workHistory');
+    let workDiv = document.getElementById('workHistory');
 
     for (let job of jobs) {
         const row = document.createElement('div');
@@ -286,7 +286,7 @@ function createType3() {
     //     </div>
     // </div>
 
-    var workDiv = document.getElementById('workHistory');
+    let workDiv = document.getElementById('workHistory');
 
     for (let job of jobs) {
         const row1 = document.createElement('div');
