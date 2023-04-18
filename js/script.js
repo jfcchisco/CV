@@ -22,12 +22,9 @@ let software = [
 ];
 
 let languages = [
-    ['Programming', 5],
-    ['Circuit analysis', 5],
-    ['Failure analysis and resolution', 5],
-    ['Tool/script development', 5],
-    ['Hardware design', 4],
-    ['3D design', 4],
+    ['English', 5],
+    ['Spanish', 5],
+    ['German', 2],
 ];
 
 let jobs = [
