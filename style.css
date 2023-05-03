@@ -1,0 +1,136 @@
+:root {
+    --light: rgb(240,240,240);
+    --dark: rgb(0, 33, 104);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: min(1200px, 100%);
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    background-color: var(--dark);
+    color: var(--light);
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+.name {
+    font-size: 2.5rem;
+    padding: 12px;
+}
+
+.title {
+    font-size: 1.25rem;
+    letter-spacing: 3px;
+    padding-left: 12px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+.column {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.left {
+    width: 33%;
+    border-right: 1px solid lightgray;
+}
+
+.right {
+    width: 67%;
+}
+
+.section {
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.icon {
+    height: 22px;
+    padding-right: 10px;
+    margin-left: 8px;
+}
+
+.rating {
+    height: 22px;
+    margin-left: auto;
+    
+}
+
+@media only screen and (max-width: 700px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .profile {
+        display: none;
+    }
+}
+
+.sectionLine {
+    display: flex;
+    vertical-align: center;
+    align-items: center;
+}
+
+p {
+    margin: 8px;
+    font-size: 1rem;
+}
+
+h2, h3, h4 {
+    margin: 8px;
+    font-weight: bold;
+    color: var(--dark);
+}
+
+.break {
+    word-break: break-all;
+}
+
+h4 {
+    font-size: 1.15rem;
+}
+
+h2 {
+    letter-spacing: 3px;
+    font-size: 1.65rem;
+    font-weight: 900;
+}
+
+.bottom {
+    border-bottom: none;
+}
+
+.profile {
+    background-position: center;
+    background-size: cover;
+    height: 96px;
+    width: 96px;
+    background-image: url(./img/photo.jpeg);
+    border-radius: 48px;
+}
